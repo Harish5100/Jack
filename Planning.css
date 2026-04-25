@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.next-btn {
+
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background: #2575fc;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+/* Section Titles */
+.section-title {
+    margin: 25px 0 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #38bdf8;
+}
+
+/* Card Container */
+.card {
+    background: #111111;
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 6px solid #2ecc71;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0,0.8);
+}
+
+/* Left Green Line */
+
+
+/* Step Title */
+.step-title {
+    font-weight: bold;
+    color: #22c55e;
+}
+
+/* Step Description */
+.step-desc {
+    font-size: 14px;
+    color: #cbd5f5;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    .card {
+        padding: 12px;
+    }
+}
